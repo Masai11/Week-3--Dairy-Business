@@ -2,6 +2,7 @@
 
 *{
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 body{
     margin: 0em;
@@ -66,7 +67,7 @@ a {
     color: #E8BC5A;
 }
 .container >.landing{
-    background-image: url("https://images.unsplash.com/photo-1619865482177-71d195df05b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-image: url("https://images.unsplash.com/photo-1440428099904-c6d459a7e7b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -81,6 +82,47 @@ a {
 }
 .landing-txt{
     width: 80vh;
+    color: ;
+   
+}
+.btn{
+    color: #f5b835;
+    padding: 1em;
+    border-radius: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.heading{
+    font-size: 3.5em;
+    color: #0A306C;
 
+}
+.mid-section{
+    color: #0A306C;
+    font-size: 1.5em;
+    margin-bottom: 70px;
+
+}
+.btn-bottom{
+
+    background-color: #0A306C;
+    padding: 1em;
+    border-radius: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #f5b835;
     
 }
+.btn-bottom:hover{
+    color: #FAFAFA;
+    background-color: #f5b835;
+    transition: 1.5s ease;
+}
+.report{
+    min-height: 100vh;
+    background-color: #f3f3f3;
+}
+
+
