@@ -13,3 +13,7 @@ Clone the repository
 ```bash
 git clone https://github.com/Masai11/Week-3--Dairy-Business.git
 ```
+
+## Usage
+
+Open the index.html file on a browser 
