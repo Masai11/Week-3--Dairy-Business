@@ -10,7 +10,7 @@ function generateReport() {
 
   var dayTotal = sheds[0] + sheds[1] + sheds[2] + sheds[3];
 
-  var price = parseInt(document.getElementById("d").value);
+  var price = parseInt(document.getElementById("price").value);
 
   var dailyIncome = price * dayTotal;
   var weeklyIncome = dailyIncome * 7;
@@ -66,6 +66,8 @@ function generateReport() {
   document.getElementById("report-c").innerText = sheds[2]
   document.getElementById("report-d").innerText = sheds[3]
   document.getElementById("daily").innerText = dailyIncome
+  document.getElementById("weekly").innerText = weeklyIncome
+
   document.getElementById("january").innerText = januaryIncome
   document.getElementById("february").innerText = februaryIncome
   document.getElementById("feb-leap").innerText = febLeapIncome
@@ -79,17 +81,8 @@ function generateReport() {
   document.getElementById("october").innerText = octoberIncome
   document.getElementById("november").innerText = novemberIncome
   document.getElementById("december").innerText = decemberIncome
-
-
-
-
-
-  
-
-
-
-  
-
+  document.getElementById("leap-year").innerText = leapYearIncome
+  document.getElementById("non-leap-year").innerText = nonLeapYearIncome
 
   //show report text
   document.getElementById("report-values").classList.remove("hidden");

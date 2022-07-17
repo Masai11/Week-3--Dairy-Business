@@ -131,7 +131,8 @@ a {
     background-color: #f3f3f3;
     display: flex;
     justify-content: space-around;
-   
+    padding-top: 4em;
+    align-items: flex-start;
   
   }
   .report-body{
