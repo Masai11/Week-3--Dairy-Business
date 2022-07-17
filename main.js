@@ -32,6 +32,10 @@ function generateReport(){
      var leapYearIncome = januaryIncome + febLeapIncome + marchIncome + aprilIncome + mayIncome + juneIncome + julyIncome + augustIncome + septemberIncome + octoberIncome + novemberIncome + decemberIncome 
      var nonLeapYearIncome = januaryIncome + februaryIncome + marchIncome + aprilIncome + mayIncome + juneIncome + julyIncome + augustIncome + septemberIncome + octoberIncome + novemberIncome + decemberIncome 
     console.log(sheds);
-    
+    //hide placeholder text on report
+
+    document.getElementById("placeholder").classList.add("hidden")
+
+    //show report values
 
 }
