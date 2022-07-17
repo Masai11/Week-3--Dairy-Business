@@ -1,0 +1,54 @@
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.nav{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: black;
+    font-weight: 900;
+    text-align: center;
+}
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.links li,
+.nav-ul li {
+    display: inline-block;
+    align-items: center;
+    
+}
+.nav-ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nav-hover:hover {
+    color: #ED661F;
+    border-bottom:#ED661F solid;
+    padding-bottom: 5px;
+}
+
+.links,
+.nav-ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    
+    
+
+}
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    color: #FAFAFA;
+
+}
+.login li{
+    color: #FAFAFA;
+
+}
