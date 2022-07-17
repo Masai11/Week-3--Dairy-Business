@@ -1,0 +1,3 @@
+function generateReport(){
+    alert("hellow")
+}
