@@ -11,6 +11,7 @@ function generateReport(){
      var price  = parseInt(document.getElementById('d').value)
 
      var dailyIncome = price * dayTotal
+     var weeklyIncome = dailyIncome *7
     console.log(sheds);
 
 }
