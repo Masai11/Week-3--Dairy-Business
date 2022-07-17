@@ -214,6 +214,13 @@ a {
     color: #0A306C;
     font-weight: bold;
   }
+  .report-values{
+    display: none;
+  }
+  .placeholder{
+    text-align: center;
+    color: #0A306C;
+  }
   
   
   
@@ -238,6 +245,7 @@ a {
     }
   
   }
+
 
 
 

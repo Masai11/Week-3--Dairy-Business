@@ -1,9 +1,12 @@
 function generateReport(){
     var sheds = [];
+    //get ht input values
     sheds[0] = parseInt(document.getElementById('a').value)
     sheds[1] = parseInt(document.getElementById('b').value)
     sheds[2] = parseInt(document.getElementById('c').value)
     sheds[3] = parseInt(document.getElementById('d').value)
+
+    //calculate income values
 
     var dayTotal = sheds[0] + sheds[1] + sheds[2] + sheds[3]
 
@@ -29,5 +32,6 @@ function generateReport(){
      var leapYearIncome = januaryIncome + febLeapIncome + marchIncome + aprilIncome + mayIncome + juneIncome + julyIncome + augustIncome + septemberIncome + octoberIncome + novemberIncome + decemberIncome 
      var nonLeapYearIncome = januaryIncome + februaryIncome + marchIncome + aprilIncome + mayIncome + juneIncome + julyIncome + augustIncome + septemberIncome + octoberIncome + novemberIncome + decemberIncome 
     console.log(sheds);
+    
 
 }
