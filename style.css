@@ -88,7 +88,7 @@ a {
 .btn{
     color: #f5b835;
     padding: 1em;
-    border-radius: 6px;
+    border-radius: 40px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -113,11 +113,14 @@ a {
 
     background-color: #0A306C;
     padding: 1em;
-    border-radius: 6px;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 40px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #f5b835;
+    font-size: 1.5em;
     
 }
 .btn-bottom:hover{
@@ -181,7 +184,7 @@ a {
     font-size: 20px;
     text-align: center;
     
-    border-radius: 5px;
+    border-radius: 40px;
     width: 100%;
     border-width: 1px 1px 3px;
     margin-bottom: 10px;
@@ -222,7 +225,7 @@ a {
     text-align: center;
     color: #0A306C;
   }
-  
+
   
   
   
